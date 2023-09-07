@@ -1,0 +1,9 @@
+Description of the Working Demo:
+
+As 3 Different shapes has to be rendered, we have taken Triangle, Square and Circle into consideration.
+For Triangle 3 (x,y) Co-ordinates have been taken within [-1,+1].
+For Square, Co-ordinates for 2 Triangles have been taken as input.
+For Circle, A polygon with 360 segments have been considered and Co-ordinates have been calculated programmatically.
+Finally, an event listener "click" has been added to the canvas through `toggleOnClick` fucntion.
+Selection of shape is decided based on Global Counter variable and switch cases.
+Based on Shape selected, vertices gets transferred to GPU through bufferData for rendering.
